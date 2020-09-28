@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./Header";
 import Jumbotron from "./Jumbotron";
 import Card from "./Card";
-import Footer from "./Footer";
 
 import "./style.css";
 
@@ -28,7 +27,6 @@ export default function App() {
      </div>
      </div>
      </main>
-     <Footer/>
     </div>
   );
 }
