@@ -3,7 +3,7 @@ import Header from "./Header";
 import Jumbotron from "./Jumbotron";
 import Card from "./Card";
 import Footer from "./Footer";
-
+import "./Album.css";
 import "./style.css";
 
 export default function App() {
