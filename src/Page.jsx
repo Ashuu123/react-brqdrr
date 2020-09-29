@@ -5,9 +5,10 @@ const Page = (props) => {
  // console.log("props is " , props);
   return (
 <div> 
-<h2>{props.title} </h2>
-<p>{props.description} </p>
- </div>
+<h2>{props.title}</h2>
+<div>{props.description}</div>
+<Button variant="primary">Click Me</Button>
+</div>
   );
 }
 

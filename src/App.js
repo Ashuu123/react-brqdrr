@@ -5,9 +5,9 @@ import "./style.css";
 export default function App() {
   return (
     <div>
-    <Page title="hello world" description = " this is first props " />
-    <Page title="hello Jhon" description = " this is second props "/>
-   <Page title="World hello" description = " this is third props "/>
+    <Page title="hello world" description = "this is first props" buttonTitle="Submit"/>
+    <Page title="hello Jhon" description = "this is second props" buttonTitle="Login"/>
+   <Page title="World hello" description = "this is third props" buttonTitle="Register"/>
     </div>
   );
 }
